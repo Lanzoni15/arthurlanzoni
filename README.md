@@ -11,7 +11,6 @@ Criar uma presença online que represente minha jornada como desenvolvedor, most
 - HTML5
 - CSS3
 - Responsividade com Media Queries
-- [Adicione aqui outras tecnologias conforme for incluindo, como JavaScript, React, etc.]
 
 ## 📱 Layout Responsivo
 
@@ -26,8 +25,3 @@ Este portfólio está em constante evolução. Futuras melhorias incluem:
 - Seção de blog ou artigos
 - Temas claros/escuros
 - Formulário de contato funcional
-
-## 📸 Imagem do projeto:
-
-```markdown
-![Preview do portfólio](./imgs/preview.png)
