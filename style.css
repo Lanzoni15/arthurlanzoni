@@ -177,6 +177,26 @@ main.apresentacao {
 
 /* About Me */
 
+.menu__aboutMe {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin: 2%;
+  font-size: 1.2rem;
+}
+
+.menu__aboutMe a {
+  text-decoration: none;
+  color: var(--cor-texto-geral);
+  border-bottom: 2px solid transparent;
+}
+
+.menu__aboutMe a:hover {
+  border-color: var(--cor-principal-texto);
+  font-size: 1.8rem;
+  transition: 0.2s;
+}
+
 .apresentacao__titulo__aboutMe {
   color: var(--cor-principal-texto);
   font-size: 2.8rem;
@@ -197,7 +217,99 @@ main.apresentacao {
   line-height: 1.6;
 }
 
-/* Contact */
+@media (max-width: 1500px) {
+  .menu__aboutMe {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 2%;
+    font-size: 1.2rem;
+  }
+
+  .menu__aboutMe a {
+    text-decoration: none;
+    color: var(--cor-texto-geral);
+    border-bottom: 2px solid transparent;
+  }
+
+  .menu__aboutMe a:hover {
+    border-color: var(--cor-principal-texto);
+    font-size: 1.8rem;
+    transition: 0.2s;
+  }
+
+  main.apresentacao__aboutMe {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .apresentacao__aboutMe__section {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .apresentacao__titulo__aboutMe {
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  .apresentacao__texto__aboutMe {
+    margin: auto;
+    gap: 0.7rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .apresentacao__titulo__aboutMe {
+    font-size: 1.75rem;
+  }
+
+  .menu {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 2%;
+    font-size: 1.2rem;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: var(--cor-texto-geral);
+    border-bottom: 2px solid transparent;
+  }
+
+  .menu a:hover {
+    border-color: var(--cor-principal-texto);
+    font-size: 1.8rem;
+    transition: 0.2s;
+  }
+}
+
+/* Cursos */
+
+.menu__cursos {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin: 2%;
+  font-size: 1.2rem;
+}
+
+.menu__cursos a {
+  text-decoration: none;
+  color: var(--cor-texto-geral);
+  border-bottom: 2px solid transparent;
+}
+
+.menu__cursos a:hover {
+  border-color: var(--cor-principal-texto);
+  font-size: 1.8rem;
+  transition: 0.2s;
+}
 
 .curso {
   margin-top: 12rem;
@@ -210,7 +322,7 @@ main.apresentacao {
   font-family: var(--fonte-titulo);
   margin-bottom: 1.5rem;
   margin-top: -25rem;
-  margin-left: 5rem;
+  margin-left: -5rem;
 }
 
 .apresentacao__texto__curso {
@@ -221,4 +333,83 @@ main.apresentacao {
   color: var(--cor-texto-geral);
   font-family: var(--fonte-geral);
   line-height: 1.6;
+}
+
+@media (max-width: 1500px) {
+  .curso__header {
+    margin-bottom: -9rem;
+  }
+
+  .menu__cursos {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 2%;
+    font-size: 1.2rem;
+  }
+
+  .menu__cursos a {
+    text-decoration: none;
+    color: var(--cor-texto-geral);
+    border-bottom: 2px solid transparent;
+  }
+
+  .menu__cursos a:hover {
+    border-color: var(--cor-principal-texto);
+    font-size: 1.8rem;
+    transition: 0.2s;
+  }
+
+  main.curso {
+    flex-direction: column;
+  }
+
+  .apresentacao__curso__section {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .apresentacao__titulo__cursos {
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  .apresentacao__texto__curso {
+    margin: auto;
+    gap: 0.7rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .curso__header {
+    margin-bottom: -9rem;
+  }
+
+  .apresentacao__texto__curso {
+    font-size: 1.75rem;
+  }
+
+  .menu__cursos {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 2%;
+    font-size: 1.2rem;
+  }
+
+  .menu__cursos a {
+    text-decoration: none;
+    color: var(--cor-texto-geral);
+    border-bottom: 2px solid transparent;
+  }
+
+  .menu__cursos a:hover {
+    border-color: var(--cor-principal-texto);
+    font-size: 1.8rem;
+    transition: 0.2s;
+  }
 }
