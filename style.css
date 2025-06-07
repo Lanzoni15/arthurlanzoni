@@ -413,3 +413,36 @@ main.apresentacao {
     transition: 0.2s;
   }
 }
+
+/* Menu base */
+.menu a,
+.menu__aboutMe a,
+.menu__cursos a {
+  text-decoration: none;
+  color: var(--cor-texto-geral);
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+  font-size: 1.2rem;
+}
+
+/* Link ativo */
+.menu a.ativo,
+.menu__aboutMe a.ativo,
+.menu__cursos a.ativo {
+  border-bottom: 2px solid var(--cor-principal-texto);
+  color: var(--cor-principal-texto);
+  font-weight: 700;
+}
+
+/* Hover e foco nos links */
+.menu a:hover,
+.menu__aboutMe a:hover,
+.menu__cursos a:hover,
+.menu a:focus,
+.menu__aboutMe a:focus,
+.menu__cursos a:focus {
+  border-bottom-color: var(--cor-principal-texto);
+  color: var(--cor-principal-texto);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
