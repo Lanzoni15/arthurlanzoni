@@ -217,7 +217,7 @@ main.apresentacao {
   line-height: 1.6;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 900px) {
   .menu__aboutMe {
     display: flex;
     gap: 3rem;
@@ -335,7 +335,7 @@ main.apresentacao {
   line-height: 1.6;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 900px) {
   .curso__header {
     margin-bottom: -9rem;
   }
