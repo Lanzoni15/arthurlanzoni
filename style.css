@@ -203,7 +203,6 @@ main.apresentacao {
   font-weight: 700;
   font-family: var(--fonte-titulo);
   margin-bottom: 1.5rem;
-  margin-top: -20rem;
   margin-left: 8rem;
 }
 
@@ -239,8 +238,7 @@ main.apresentacao {
   }
 
   main.apresentacao__aboutMe {
-    flex-direction: column;
-    padding: 2rem 1rem;
+    padding-top: 6rem;
   }
 
   .apresentacao__aboutMe__section {
@@ -312,7 +310,8 @@ main.apresentacao {
 }
 
 .curso {
-  margin-top: 12rem;
+  padding-top: 6rem;
+  margin-top: 0;
 }
 
 .apresentacao__titulo__cursos {
@@ -321,7 +320,6 @@ main.apresentacao {
   font-weight: 700;
   font-family: var(--fonte-titulo);
   margin-bottom: 1.5rem;
-  margin-top: -20rem;
   margin-left: 8rem;
 }
 
