@@ -384,7 +384,7 @@ main.apresentacao {
 
 @media (max-width: 900px) {
   .curso__header {
-    margin-bottom: -9rem;
+    margin-bottom: 0;
   }
 
   .apresentacao__texto__curso {
