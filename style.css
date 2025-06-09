@@ -333,7 +333,7 @@ main.apresentacao {
   line-height: 1.6;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .curso__header {
     margin-bottom: -9rem;
   }
@@ -382,13 +382,13 @@ main.apresentacao {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 900px) {
   .curso__header {
     margin-bottom: -9rem;
   }
 
   .apresentacao__texto__curso {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .menu__cursos {
