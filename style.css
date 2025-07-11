@@ -411,3 +411,17 @@ main.apresentacao {
     transition: 0.2s;
   }
 }
+
+.apresentacao__texto__curso a {
+  color: #ff0033;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.apresentacao__texto__curso a:hover {
+  color: white;
+  background-color: #ff0033;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
