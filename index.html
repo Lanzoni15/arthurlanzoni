@@ -1,52 +1,424 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Iuri Silva" />
+    <meta
+      name="description"
+      content="Meu nome é Iuri, desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO."
+    />
+    <meta
+      name="keywords"
+      content="sites, web, desenvolvimento, programação, landing page, frontend, iuri silva, ui designer, ux designer, ux, product design, programador, iuricode, front-end, designer, ui, iuri, freelancer, freela, website, portfólio"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Arthur Lanzoni - Desenvolvedor Full Stack Jr. em evolução</title>
-
-    <head>
-      <link rel="shortcut icon" type="image/x-icon" href="imgs/eu_aba.png" />
-    </head>
+    <meta name="theme-color" content="#986DFF" />
+    <meta name="copyright" content="Iuri Silva 2025" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta property="og:image" content="" />
+    <meta property="og:title" content="Portfólio // Iuri Silva" />
+    <meta property="og:description" content="Portfólio // Iuri Silva" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/logo/euPortfolio.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/logo/euPortfolio.png" />
+    <link rel="apple-touch-icon" href="assets/logo/euPortfolio.png" />
+    <link rel="canonical" href="https://iuricode.com/" />
+    <script src="assets/js/svg-inject.min.js"></script>
+    <title>Arthur Lanzoni Macedo</title>
   </head>
 
   <body>
     <header>
-      <nav class="menu">
-        <a href="/menu/sobreMim.html">About Me</a>
-        <a href="/menu/cursos.html">Courses</a>
-        <a href="/menu/projetos.html">Projects</a>
-      </nav>
+      <div class="grid-layout">
+        <nav>
+          <h2 style="color: white">Arthur Lanzoni</h2>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li>
+              <a
+                href="https://api.whatsapp.com/send/?phone=5511971209266"
+                rel="noopener"
+                target="_blank"
+                >Entrar em contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main class="apresentacao">
-      <section class="apresentacao__perfil">
-        <h1 class="apresentacao__titulo">
-          Olá! <br />
-          I'm Arthur Lanzoni,
-          <span>Desenvolvedor Full Stack Jr. em evolução</span>
-        </h1>
+    <main>
+      <section id="s-home">
+        <div class="grid-layout">
+          <div id="home">
+            <div id="home-container-text">
+              <h1 class="delayMediumReveal">
+                Ajudando empresas e times a criarem
+                <span>soluções completas e modernas.</span>
+              </h1>
+              <p class="typewriter">
+                Combinando backend em Java, frontend com Angular e boas práticas
+                de desenvolvimento para entregar valor real.
+              </p>
 
-        <a
-          href="/menu/Arthur Lanzoni Macedo.pdf"
-          download
-          class="apresentacao__contato"
-          >My Resume</a
-        >
+              <a
+                href="assets/Arthur Lanzoni Macedo.pdf"
+                rel="noopener"
+                target="_blank"
+                class="delayExtraBigReveal"
+              >
+                Meu Curriculo
+              </a>
+            </div>
+
+            <img
+              src="assets/logo/img_principal.svg"
+              alt="ìcone iuricode"
+              onload="SVGInject(this)"
+              id="logo"
+              width="500px"
+              height="500px"
+            />
+          </div>
+        </div>
       </section>
 
-      <div>
-        <img
-          src="/imgs/euPortfolio.png"
-          alt="Arthur Lanzoni"
-          class="apresentacao__imagem"
-        />
-      </div>
+      <section id="s-about">
+        <div class="grid-layout">
+          <div>
+            <div id="creator-photo" class="delayMediumReveal">
+              <h3 class="delayExtraBigReveal">Desenvolvedor Full Stack Jr.</h3>
+            </div>
+            <div>
+              <h4 class="delayMediumReveal">Quem sou</h4>
+              <h2 class="delaySmallReveal">Arthur Lanzoni</h2>
+              <h3 class="delayMediumReveal">
+                Desenvolvedor Full Stack Jr. | Java, Spring Boot & Angular
+              </h3>
+
+              <p class="delayLargeReveal">
+                Atualmente estudo e desenvolvo soluções utilizando Java com
+                Spring Boot no back-end e Angular no front-end. Também tenho
+                conhecimento em HTML, CSS, JavaScript e banco de dados
+                relacionais como MySQL. Estou me especializando também em
+                testes, deploy, arquitetura hexagonal e análise de dados com
+                Python. Busco crescer como estagiário ou desenvolvedor júnior em
+                projetos reais.
+              </p>
+              <nav class="delayLargeReveal">
+                <ul>
+                  <a
+                    href="https://www.instagram.com/_.lanzoni/"
+                    rel="noopener"
+                    target="_blank"
+                    ><li>
+                      <img
+                        src="assets/icons/instagram.svg"
+                        alt="Ícone do Instagram"
+                        onload="SVGInject(this)"
+                      /></li
+                  ></a>
+
+                  <a
+                    href="https://www.linkedin.com/in/arthur-lanzoni-a838b721a/"
+                    rel="noopener"
+                    target="_blank"
+                    ><li>
+                      <img
+                        src="assets/icons/linkedin.svg"
+                        rel="noopener"
+                        alt="Ícone do LinkedIn"
+                        onload="SVGInject(this)"
+                      /></li
+                  ></a>
+
+                  <a
+                    href="https://github.com/Lanzoni15"
+                    rel="noopener"
+                    target="_blank"
+                    ><li>
+                      <img
+                        src="assets/icons/github.svg"
+                        alt="Ícone do GitHub"
+                        onload="SVGInject(this)"
+                      /></li
+                  ></a>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="s-experience">
+        <div class="grid-layout">
+          <h2 class="delaySmallReveal">Experiências <span>.</span></h2>
+          <div id="experience">
+            <div
+              class="option-experience intervalCardReveal"
+              id="experience-company"
+            >
+              <div class="company aacd_agendamento">
+                <h3>AACD - Administrativo</h3>
+              </div>
+              <div class="company aacd_atendimento">
+                <h3>AACD - Call Center</h3>
+              </div>
+              <div class="company fenix">
+                <h3>Fênix Assessoria</h3>
+              </div>
+            </div>
+            <div class="text-experience intervalCardReveal">
+              <div>
+                <h4 class="titleExperience">Auxiliar Administrativo</h4>
+                <p class="dateExperience">Ago 2024 - Atualmente (1 ano)</p>
+              </div>
+              <h5 class="companyExperience">
+                Associação de Assistência à Criança Deficiente
+              </h5>
+              <p class="changeExperience">
+                Atuo no setor administrativo da AACD, onde organizo documentos e
+                processos internos, além de apoiar a equipe em tarefas técnicas
+                e operacionais. Prezo por um atendimento sempre claro e
+                acolhedor. Também utilizo sistemas como o NEOH e o TASY no dia a
+                dia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="s-projects">
+        <div class="grid-layout">
+          <h2 class="delaySmallReveal">Projetos <span>.</span></h2>
+          <div id="projects">
+            <article class="intervalCardReveal teslabank">
+              <h3>VollMed</h3>
+              <p>
+                Tecnologias: Java, Spring Boot, MySQL, Flyway, Bean Validation,
+                JPA, Paginação
+              </p>
+
+              <a
+                href="https://github.com/Lanzoni15/VollMed"
+                rel="noopener"
+                target="_blank"
+                id="teslabank"
+                >Visualizar projeto
+              </a>
+            </article>
+
+            <article class="intervalCardReveal steam">
+              <h3>Portfólio Web Pessoal</h3>
+              <p>Tecnologias: HTML5, CSS3, Responsividade</p>
+              <a
+                href="https://github.com/Lanzoni15/Arthur-Lanzoni---Desenvolvedor-web-em-forma-o"
+                rel="noopener"
+                target="_blank"
+                id="steam"
+                >Visualizar projeto
+              </a>
+            </article>
+          </div>
+          <a
+            href="https://github.com/Lanzoni15"
+            rel="noopener"
+            target="_blank"
+            class="delayExtraBigReveal"
+            >Repositórios no GitHub</a
+          >
+        </div>
+      </section>
+
+      <section id="s-services">
+        <div class="grid-layout">
+          <h2 class="delaySmallReveal">Estudos <span>.</span></h2>
+          <div id="services">
+            <article class="intervalCardReveal">
+              <div>
+                <img
+                  src="assets/icons/faculdade.png"
+                  width="100px"
+                  height="100px"
+                  alt="ícone formação acadêmica"
+                />
+              </div>
+              <h3>Formação Acadêmica</h3>
+              <p>
+                Tecnólogo em Análise e Desenvolvimento de Sistemas –
+                Universidade São Judas Tadeu (Fev 2024 – Jun 2026, em
+                andamento).
+              </p>
+            </article>
+
+            <article class="intervalCardReveal">
+              <div>
+                <img
+                  src="assets/icons/java.png"
+                  width="100px"
+                  height="100px"
+                  alt="ícone Java e Spring Boot"
+                />
+              </div>
+              <h3>Java e Spring Boot</h3>
+              <p>
+                Orientação a Objetos, desenvolvimento com Spring Boot, JPA,
+                testes automatizados e arquitetura hexagonal.
+              </p>
+            </article>
+
+            <article class="intervalCardReveal">
+              <div>
+                <img
+                  src="assets/icons/web.png"
+                  width="100px"
+                  height="100px"
+                  alt="ícone Angular e Frontend"
+                />
+              </div>
+              <h3>Frontend com Angular, HTML, CSS e JavaScript</h3>
+              <p>
+                Desenvolvimento de interfaces responsivas e modernas com
+                Angular, além de HTML5, CSS3 e JavaScript.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="s-skills">
+        <div class="grid-layout">
+          <div id="skills">
+            <article id="skills-text">
+              <h2 class="delaySmallReveal">Conhecimentos <span>.</span></h2>
+              <p class="delayMediumReveal changeDescription">
+                *passe o cursor do mouse no card para ler*
+              </p>
+            </article>
+
+            <div id="skills-cards">
+              <article class="html intervalCardReveal">
+                <img
+                  src="assets/icons/html.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do HTML"
+                />
+              </article>
+
+              <article class="css intervalCardReveal">
+                <img
+                  src="assets/icons/css.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do CSS"
+                />
+              </article>
+
+              <article class="js intervalCardReveal">
+                <img
+                  src="assets/icons/javascript.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do JavaScript"
+                />
+              </article>
+
+              <article class="java intervalCardReveal">
+                <img
+                  src="assets/icons/java.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do Java"
+                />
+              </article>
+
+              <article class="spring intervalCardReveal">
+                <img
+                  src="assets/icons/springboot.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do Spring Boot"
+                />
+              </article>
+
+              <article class="angular intervalCardReveal">
+                <img
+                  src="assets/icons/angular.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do Angular"
+                />
+              </article>
+
+              <article class="sql intervalCardReveal">
+                <img
+                  src="assets/icons/sql.png"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do SQL"
+                />
+              </article>
+
+              <article class="mysql intervalCardReveal">
+                <img
+                  src="assets/icons/mysql.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do MySQL"
+                />
+              </article>
+
+              <article class="git intervalCardReveal">
+                <img
+                  src="assets/icons/git.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do Git"
+                />
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="grid-layout">
+          <p>
+            Copyright © 2025
+            <a
+              href="https://arthurlanzonidesenvolvedorweb.netlify.app"
+              rel="noopener"
+              target="_blank"
+            >
+              arthurlanzoni.dev
+            </a>
+            Todos os direitos reservados.
+          </p>
+
+          <div>
+            <p>Powered by</p>
+            <h2>Arthur Lanzoni</h2>
+          </div>
+        </div>
+      </footer>
     </main>
 
-    <footer class="rodape">
-      <p>Desenvolvido por Arthur Lanzoni</p>
-    </footer>
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
   </body>
 </html>
