@@ -48,5 +48,3 @@ Se você busca alguém comprometido com aprendizado contínuo e desenvolvimento 
 - 💻 [**GitHub**](https://github.com/Lanzoni15)
 
 ---
-
-> Projeto inspirado no modelo do [Iuri Silva](https://github.com/iuricode)
