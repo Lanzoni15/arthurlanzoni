@@ -1,27 +1,52 @@
-# 🌐 Arthur Lanzoni — Desenvolvedor Web em Formação
+# 💻 Portfólio // Arthur Lanzoni
 
-Este é o meu portfólio pessoal como desenvolvedor web em formação. Aqui você encontrará uma apresentação dos meus conhecimentos, projetos, habilidades e formas de contato profissional.
+Este é o meu portfólio profissional, onde apresento um pouco sobre mim, minhas experiências, projetos e conhecimentos na área de desenvolvimento web.  
+O site foi desenvolvido com foco em responsividade, usabilidade e uma identidade visual inspirada em tons escuros com destaque roxo — combinando elegância e modernidade.
 
-## 📌 Objetivo
+🔗 [Clique aqui para acessar o portfólio](https://arthurlanzonimacedo.netlify.app/)
 
-Criar uma presença online que represente minha jornada como desenvolvedor, mostrando minha evolução, meus estudos e meus futuros projetos.
+---
 
-## 🚀 Tecnologias utilizadas
+## 📚 Seções
 
-- HTML5
-- CSS3
-- Responsividade com Media Queries
+O site é dividido nas seguintes seções:
 
-## 📱 Layout Responsivo
+- **Home**: Apresentação inicial com destaque para nome, cargo e botão de contato;
+- **Sobre Mim**: Um breve resumo da minha trajetória e motivações na área de tecnologia;
+- **Experiências**: Lista das empresas onde atuei, com descrições objetivas das atividades;
+- **Projetos**: Alguns dos meus principais projetos, com links para o repositório no GitHub;
+- **Cursos**: Certificações e formações que fazem parte do meu desenvolvimento técnico;
+- **Conhecimentos**: Tecnologias com as quais tenho familiaridade, com foco em front-end.
 
-O projeto foi desenvolvido com foco em **design responsivo**, adaptando-se a diferentes tamanhos de tela (mobile, tablet e desktop).
+---
 
-## 🛠️ Em desenvolvimento
+## 💼 Tecnologias utilizadas
 
-Este portfólio está em constante evolução. Futuras melhorias incluem:
+Este portfólio foi desenvolvido com as seguintes tecnologias:
 
-- Página de projetos dinâmicos
-- Integração com GitHub
-- Seção de blog ou artigos
-- Temas claros/escuros
-- Formulário de contato funcional
+- **HTML5**  
+- **CSS3 personalizado (com foco em responsividade)**  
+- **JavaScript Vanilla**  
+- **ScrollReveal** para animações  
+- **Fonte Epilogue** e **Krona One** para a identidade visual
+
+---
+
+## 🚀 Disponível para oportunidades
+
+Atualmente estou aberto para oportunidades como **Desenvolvedor Front-End**.  
+Tenho grande interesse em atuar com tecnologias modernas e contribuir com soluções criativas para interfaces que entreguem uma ótima experiência ao usuário.
+
+Se você está procurando alguém comprometido com aprendizado contínuo e desenvolvimento de interfaces responsivas, estou disponível para conversarmos!
+
+---
+
+## 📬 Entre em contato
+
+- 📧 **Email**: arthurlanzoni08@gmail.com  
+- 💼 [**LinkedIn**](https://www.linkedin.com/in/arthurlanzoni)  
+- 💻 [**GitHub**](https://github.com/Lanzoni15)
+
+---
+
+> Projeto inspirado no modelo do [Iuri Silva](https://github.com/iuricode)
