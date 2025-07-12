@@ -34,10 +34,10 @@ Este portfólio foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀 Disponível para oportunidades
 
-Atualmente estou aberto para oportunidades como **Desenvolvedor Front-End**.  
-Tenho grande interesse em atuar com tecnologias modernas e contribuir com soluções criativas para interfaces que entreguem uma ótima experiência ao usuário.
+Atualmente, estou aberto a oportunidades como Desenvolvedor Backend Java e SpringBoot.
+Tenho grande interesse em trabalhar com tecnologias modernas e contribuir com soluções eficientes para criação e integração de sistemas robustos.
 
-Se você está procurando alguém comprometido com aprendizado contínuo e desenvolvimento de interfaces responsivas, estou disponível para conversarmos!
+Se você busca alguém comprometido com aprendizado contínuo e desenvolvimento de APIs e sistemas de qualidade, estou disponível para conversarmos!
 
 ---
 
