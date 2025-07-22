@@ -69,3 +69,7 @@ hoverChangeDescription(
   ".git",
   "Git é um sistema de controle de versão distribuído, essencial para colaboração e versionamento de código."
 );
+hoverChangeDescription(
+  ".aws",
+  "AWS (Amazon Web Services) é uma plataforma de serviços em nuvem que oferece computação, armazenamento e muito mais, facilitando a escalabilidade e infraestrutura de aplicações."
+);
