@@ -3,7 +3,7 @@
 Este é o meu portfólio profissional, onde apresento um pouco sobre mim, minhas experiências, projetos e conhecimentos na área de desenvolvimento web.  
 O site foi desenvolvido com foco em responsividade, usabilidade e uma identidade visual inspirada em tons escuros com destaque roxo — combinando elegância e modernidade.
 
-🔗 [Clique aqui para acessar o portfólio](https://arthurlanzonimacedo.netlify.app/)
+🔗 [Clique aqui para acessar o portfólio](https://arthurlanzoniportfolio.netlify.app/)
 
 ---
 
